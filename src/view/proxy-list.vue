@@ -1,7 +1,10 @@
 <template>
   <div class="hello">
     <el-row style="margin-bottom:10px">
-      <el-button type="primary" icon="el-icon-edit" size="medium">添加代理</el-button>
+      <el-button type="primary" icon="el-icon-edit"
+      size="medium"
+      @click="$router.push('proxydetail')"
+      >添加代理</el-button>
     </el-row>
 
     <el-table

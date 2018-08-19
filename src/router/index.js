@@ -3,7 +3,8 @@ import Router from 'vue-router';
 
 Vue.use(Router);
 const proxylist = () => import('@/view/proxy-list')
-const proxysearch = () => import('@/view/proxy-search')
+const proxydetail = () => import('@/view/proxy-detail')
+
 
 export default new Router({
   routes: [
@@ -17,9 +18,9 @@ export default new Router({
       component: proxylist,
     },
     {
-      path: '/proxysearch',
-      name: 'proxysearch',
-      component: proxysearch,
+      path: '/proxydetail',
+      name: 'proxydetail',
+      component: proxydetail,
     },
   ],
 });

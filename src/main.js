@@ -7,7 +7,9 @@ import {
   Table,
   TableColumn,
   Row,
-  Button
+  Button,
+  Input,
+  Tag
 } from 'element-ui';
 
 Vue.config.productionTip = false;
@@ -15,6 +17,11 @@ Vue.use(Table);
 Vue.use(TableColumn);
 Vue.use(Row);
 Vue.use(Button);
+Vue.use(Input);
+Vue.use(Tag);
+// Vue.use(Input);
+// Vue.use(Input);
+// Vue.use(Input);
 /* eslint-disable no-new */
 new Vue({
   el: '#app',
