@@ -4,7 +4,7 @@
       <el-button type="primary" icon="el-icon-edit"
       size="medium"
       @click="$router.push('proxydetail')"
-      >添加代理</el-button>
+      >{{$t('m.ADD_PROXY_BTN')}}</el-button>
     </el-row>
 
     <el-table
